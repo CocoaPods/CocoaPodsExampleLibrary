@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.summary      =  'Just a simple podspec, no working code.'
   s.description  =  'Just a simple podspec for 2 files.'
 
-  s.source_files = "ExampleLib.{m,h}"
+  s.source_files = "Classes/ExampleLib.{m,h}"
 end
