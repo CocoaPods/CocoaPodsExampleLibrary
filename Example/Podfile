@@ -5,7 +5,7 @@ platform :ios
 
 pod "ExampleLib", :path => "../"
 
-# By default CocoaPods only makes changes to your mail library
+# By default CocoaPods only makes changes to your main library
 # so we ensure that the test library gets the pod by including it here.
 
 # As it is included earlier with path CocoaPods will use the same version
