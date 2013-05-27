@@ -1,3 +1,7 @@
+# If you are interested in seeing some real examples:
+# => https://github.com/orta/ARAnalytics/blob/master/Bootstrap/Podfile
+# => https://github.com/mneorr/ObjectiveSugar/blob/master/Example/Podfile
+
 platform :ios
 
 # Refer to the parent folder to grab the podspec locally
