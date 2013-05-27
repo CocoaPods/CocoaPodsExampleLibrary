@@ -6,7 +6,7 @@ This app is here to provide a sample of the library in action, and to provide un
 Podfile
 =====
 
-The [Podfile](https://github.com/orta/CocoapodsExampleLibrary/blob/master/Example/Podfile) for this example has no dependencies so is just:
+The [Podfile](https://github.com/orta/CocoaPodsExampleLibrary/blob/master/Example/Podfile) for this example has no dependencies so is just:
 
 ``` ruby
 platform :ios
