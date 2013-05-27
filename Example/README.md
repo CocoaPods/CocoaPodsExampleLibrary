@@ -12,5 +12,10 @@ The [Podfile](https://github.com/orta/CocoapodsExampleLibrary/blob/master/Exampl
 platform :ios
 
 pod "ExampleLib", :path => "../"
+
+target :ExampleBootstrapTests do
+  pod "ExampleLib"
+end
+
 ```
 
