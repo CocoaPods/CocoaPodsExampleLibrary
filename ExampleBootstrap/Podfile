@@ -1,0 +1,13 @@
+platform :ios
+
+# Refer to the root folder to grab the podspec locally
+# this means we can edit it and changes will be made in that folder
+
+pod "ExampleLib", :path => "../"
+
+# In case you want to use a testing library.
+# If you don't use one, consult: http://samwize.com/2012/10/01/unit-tests-with-cocoapods/
+
+# target :test do
+#   pod 'Kiwi'
+# end
