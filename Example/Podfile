@@ -3,14 +3,13 @@ platform :ios
 # Refer to the parent folder to grab the podspec locally
 # this means we can edit it and changes will be made in that folder
 
-podspec :path => "../ExampleLib.podspec"
+pod "ExampleLib", :path => "../"
 
-# If you want more fine grain control over subspecs you can use
-# pod "ExampleLib", :path => "../"
+# By default CocoaPods only makes changes to your mail library
+# so we ensure that the test library gets the pod by including it here.
 
-# In case you want to use a testing library.
-# If you don't use one, consult: http://samwize.com/2012/10/01/unit-tests-with-cocoapods/
+# As it is included earlier with path CocoaPods will use the same version
 
-# target :test do
-#   pod 'Kiwi'
-# end
+target :ExampleBootstrapTests do
+  pod "ExampleLib"
+end

@@ -2,6 +2,7 @@ PODS:
   - ExampleLib (1.0)
 
 DEPENDENCIES:
+  - ExampleLib
   - ExampleLib (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,6 +10,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ExampleLib: 6bdb9db1f694fe16b87d127a97d8564b184b7a6e
+  ExampleLib: b469a79e86834d88241d1494a1aff98e15770878
 
 COCOAPODS: 0.20.1
