@@ -1,7 +1,7 @@
 CocoaPods Example Library
 ================
 
-It can be a bit confusing figuring out the perfect way to set up your library for Cocoapods. We recommend you:
+It can be a bit confusing figuring out the perfect way to set up your library for Cocoapods. We recommend that you:
 
 1. Create the library in the root of your project like normal.
 2. Create an Xcode project that uses your library and can provide tests.
