@@ -6,7 +6,7 @@
 # Most people will use the version in the Cocoapods Spec repo, which provides a snapshot for your
 # library's state at that version.
 
-
+# Documentation for podspecs: http://docs.cocoapods.org/specification.html
 
 Pod::Spec.new do |s|
   s.name         =  'ExampleLib'
@@ -18,10 +18,6 @@ Pod::Spec.new do |s|
 
   s.summary      =  'Just a simple podspec, no working code.'
   s.description  =  'Just a simple podspec for 2 files.'
-  
-  s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
-
 
   s.source_files = "Classes/ExampleLib.{m,h}"
 end
