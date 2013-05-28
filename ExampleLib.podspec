@@ -18,6 +18,10 @@ Pod::Spec.new do |s|
 
   s.summary      =  'Just a simple podspec, no working code.'
   s.description  =  'Just a simple podspec for 2 files.'
+  
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.8'
+
 
   s.source_files = "Classes/ExampleLib.{m,h}"
 end
