@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         =  'ExampleLib'
-  s.version      =  '1.0'
+  s.version      =  '1.0.0'
   s.license      =  { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     =  'http://github.com/CocoaPods/CocoaPodsExampleLibrary'
   s.authors      =  { 'orta' => 'orta.therox@gmail.com' }
