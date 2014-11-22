@@ -6,16 +6,13 @@
 
 platform :ios
 
-# Refer to the parent folder to grab the podspec locally
-# this means we can edit it and changes will be made in that folder
+target 'ExampleBootstrap' do
+  # Refer to the parent folder to grab the podspec locally
+  # this means we can edit it and changes will be made in that folder.
+  pod "ExampleLib", :path => "../"
+end
 
-pod "ExampleLib", :path => "../"
-
-# By default CocoaPods only makes changes to your main library
-# so we ensure that the test library gets the pod by including it here.
-
-# As it is included earlier with path CocoaPods will use the same version
-
-target :ExampleBootstrapTests do
-  pod "ExampleLib"
+target 'ExampleBootstrapTests' do
+  # Expose the ExampleLib to the test target too.
+  pod "ExampleLib", :path => "../"
 end
