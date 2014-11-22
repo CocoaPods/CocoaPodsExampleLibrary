@@ -1,0 +1,14 @@
+PODS:
+  - ExampleLib (1.0)
+
+DEPENDENCIES:
+  - ExampleLib (from `../`)
+
+EXTERNAL SOURCES:
+  ExampleLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ExampleLib: d87a85b28f74914d12f1be986be758f0d317333f
+
+COCOAPODS: 0.35.0
